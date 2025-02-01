@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sis juros bancario</title>
+
+    <link rel="stylesheet" href="estilo.css"> <!--Css Externo-->
+    
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de Juros Bancário 🧾</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Capital: <input type="number" name="c" id="c"></p>
+            <p>Taxa de juros: <input type="number" name="i" id="i"></p>
+            <p>Tempo: <input type="number" name="t" id="t"></p>
+            <p>
+                <input type="radio" name="radj" id="rads" checked  onclick="limpar()"> Juro Simples
+                <input type="radio" name="radj" id="radc" onclick="limpar()"> Juro Composto
+            </p>
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+        </div>
+        <div id="res">Resultado</div>
+    </section>
+
+    <footer>
+        <p>&copy;Tecmit</p>
+    </footer>
+
+    <script src="script.js"></script> <!--Javascript Externo-->
+</body>
+</html>

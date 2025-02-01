@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema Único de Registro de Plantas</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Sistema de Registro das Plantas</h1>
+        </header>
+        <section class="cad">
+            <div class="cad">
+                <p>Nome da planta: <input type="text" id="txtp"> </p>
+                <p>Descrição: <input type="text" name="txtd" id="txtd"></p>
+                <p>Src da imagem: <input type="text" id="img"> </p>
+                <p><input type="button" value="Registrar" onclick="registrar()"></p>
+            </div>
+            <hr>
+            <div id="res" class="res">
+                <p>Registros abaixo:</p>
+                
+            </div>
+        </section>
+        <footer>&copy; TecMit</footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

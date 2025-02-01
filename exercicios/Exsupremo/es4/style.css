@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(rgb(55, 175, 4) , rgb(10, 194, 10));
+}
+header{
+    text-align: center;
+}
+section{
+    padding: 10px;
+    background-color: aliceblue;
+    min-width: 320px;
+    max-width: 500px;
+    border-radius: 5px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}

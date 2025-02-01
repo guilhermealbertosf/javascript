@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body{
+            background: rgb(255, 183, 0);
+            
+        }
+        div#line{
+            background: black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SISTEMA DE MULTAS DETRAN</h1>
+    Insira a velocidade do carro: <input type="number" name="vlc" id="vlc"> km/h 
+    <input type="button" value="Verificar", onclick="clicar()" >
+    <div id = 'res'> resultado... </div>
+    <div id = 'line'>.</div>
+
+    <script>
+        
+        function clicar(){
+            var res = document.getElementById('res')
+            var vlc = document.getElementById('vlc')
+            var v = Number(vlc.value)
+            var v = v.toFixed(0)
+
+            res.innerHTML = `Sua velocidade atual é <strong>${v} Km/h</strong> <br>`
+
+            if(v >= 80){
+                res.innerHTML += 'Este carro <strong>ULTRAPASSOU</strong> a velocidade máxima, MULTADO!'
+            }else{
+                res.innerHTML += 'Dessa vez você escapou mas na próxima eu te multo! <br>'
+                res.innerHTML +=  'carinho: Detran'
+            }
+        }
+    </script>
+</body>
+</html>

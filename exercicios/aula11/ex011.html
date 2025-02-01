@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkpaís</title>
+   
+    
+</head>
+<body>
+<!--PROGRAMA PARA IDENTIFICAR SE O CARA É OU NÃO BRASILEIRO, SE ELE NÃO FOR CHAME ELE DE ESTRANJEIRO-->
+
+    <h1>Identificador étnico</h1>
+    País: <input type="text" name="con" id="con"> <!--Erro no input-->
+    <input type="button" value="confirmar" onclick="confirmar()">
+    <div id = 'res'>Etinia Indefinida</div>
+
+    <script> 
+        function confirmar(){
+            var res = document.getElementById('res')
+            var co = document.getElementById("con")
+            var con = co.toS
+            if(con != 'brasil'){
+                res.innerHTML = `Sendo do país ${con} você é estrangeiro!`
+            }else{
+                res.innerHTML = 'Você é Brasileiro'
+            }
+
+        }
+    </script>
+</body>
+</html>

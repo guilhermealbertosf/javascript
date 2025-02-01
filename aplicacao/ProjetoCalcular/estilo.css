@@ -1,0 +1,119 @@
+body{
+    background: rgb(133, 131, 129); 
+    
+}
+header{
+    color: white;
+    font: normal 18pt arial;
+    text-align: center;
+}
+section{
+    margin: auto;
+    background: white;
+    width: 350px;
+    width: 350px;
+}
+section#s1{
+   height: 500px;
+   
+}
+div#res{
+    background: rgba(231, 229, 229, 0.616);
+    text-align: right;
+    height: 80px;
+    font: normal 25pt italic;
+}
+#botoes{
+    background: rgb(227, 227, 227); 
+    text-align: center;
+    
+    font: normal 20pt arial;
+    height: 350px;
+}
+.botao0{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao1{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao2{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao3{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao4{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao5{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao6{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao7{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao8{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao9{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botao10{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoX{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoMENOS{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoMAIS{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoMULTI{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoDIVID{
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+.botaoIGUAL{
+    background: rgba(101, 101, 251, 0.792);
+    width: 75px;
+    height: 50px;
+    box-shadow: 4px 0px 0px rgba(3, 3, 3, 0.11);
+    border-radius: 12px;}
+

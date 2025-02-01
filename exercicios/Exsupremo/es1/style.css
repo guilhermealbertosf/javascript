@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    margin: auto;
+    background: white;
+    width: 500px;
+    border-radius: 5px ;
+    padding: 15px;
+    color: black;
+    
+}
+footer{
+    padding: 15px;
+    text-align: center;
+}

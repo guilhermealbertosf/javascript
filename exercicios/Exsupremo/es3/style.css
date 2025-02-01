@@ -1,0 +1,17 @@
+body{
+    background: rgb(250, 193, 25);
+}
+
+section{
+    padding: 10px;
+    min-width: 320px;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+}

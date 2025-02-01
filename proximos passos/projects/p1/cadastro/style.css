@@ -1,0 +1,31 @@
+body{
+    background: rgb(116, 60, 0);
+    color: white;
+}
+main{
+    background: rgba(72, 150, 3, 0.868);
+
+}
+header{
+    text-align: center;
+}
+.cad{
+    color: black;
+    font: normal 15pt arial;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    max-width: 500px;
+    min-width: 320px;
+    
+}
+img{
+    max-width: 300px;
+    min-width: 100px;
+}
+footer{
+    font-size: 15pt;
+    text-align: center; 
+    padding: 10px;
+}

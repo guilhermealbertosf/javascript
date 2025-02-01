@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <section id = 's1'>
+        <p style="background: rgb(255, 231, 211);">Calculadora</p>
+        <p style="font: normal 18pt arial;"><strong>Padrão</strong></p>
+        <div id = 'res'>
+            :R
+        </div>
+
+        <div class="botoes" id="botoes">
+            <p>
+                <input onclick="valor()" type="button" value="7" class="botao7">
+                <input onclick="valor()"type="button" value="8" class="botao8">
+                <input onclick="valor()"type="button" value="9" class="botao9">
+                <input onclick="oper()"type="button" value="{x}" class="botaoX">
+                
+            </p>
+            <p>
+                <input onclick="valor()"type="button" value="4" class="botao4">
+                <input onclick="valor()"type="button" value="5" class="botao5">
+                <input onclick="valor()"type="button" value="6" class="botao6">
+                <input onclick="oper()"type="button" value="--" class="botaoMENOS">
+            </p>
+            <p>
+                <input onclick="valor()"type="button" value="1" class="botao1" >
+                <input onclick="valor()"type="button" value="2" class="botao2">
+                <input onclick="valor()"type="button" value="3" class="botao3">
+                <input onclick="oper()"type="button" value="+" class="botaoMAIS">
+            </p>
+            <p>
+                <input onclick="valor()"type="button" value="0" class="botao0">
+                <input onclick="oper()"type="button" value="x" class="botaoMULTI">
+                
+                
+                <input onclick="oper()"type="button" value="//" class="botaoDIVID">
+                <input onclick="oper()"type="button" value="= " class="botaoIGUAL">
+            </p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
